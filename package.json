@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Demo repo to show how you can mint your own forked mainnet DAI or SAI",
   "scripts": {
-    "ganache": "ganache-cli --fork $ETHEREUM_NODE --unlock 0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359 --unlock 0xdfbaf3e4c7496dad574a1b842bc85b402bdc298d",
+    "ganache": "ganache-cli --fork $ETHEREUM_NODE --unlock 0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359 --unlock 0x07BB41Df8C1d275c4259CdD0dBf0189d6a9a5F32 --unlock 0x6b175474e89094c44da98b954eedeac495271d0f --unlock 0xBE0eB53F46cd790Cd13851d5EFf43D12404d33E8",
     "build": "truffle build",
     "migrate": "truffle migrate",
     "test": "truffle test"
